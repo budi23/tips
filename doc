@@ -1,0 +1,12 @@
+Change user credential in network sharing 
+net use \\SERVER * /user:username
+https://superuser.com/questions/123833/how-do-i-change-the-user-i-am-logged-in-with-on-a-network-share
+
+Cek nama komputer ( user FQDN ) Fully Qualified Domain Name
+echo %computername%.%userdnsdomain%
+
+Cek password wifi yang sudah tersimpan di windows
+netsh wlan show profile name="namassd" key="clear"
+
+melihat semua ssid wifi yang tersimpan di windows
+netsh wlan show profile
