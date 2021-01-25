@@ -13,3 +13,9 @@ netsh wlan show profile
 
 #melihat license key windows
 wmic path SoftwareLicensingService get 0A3xOriginalProductKey
+
+#model type computer
+wmic computersystem get model
+
+#zero fill via cmd
+At the prompt window, type “format f: /fs:NTFS /p:1” command, and hit on “Enter” to format the f drive with the NTFS file system and write zeros to every sector of the drive for a single pass. For a twice pass, you can input “p:2” instead.
