@@ -1,9 +1,12 @@
-#create new environtment
+#create new environment
 conda create --name myenv
 *myenv = ganti nama environtmentnya
 
-#create new environtment with spesific python
+#create new environment with spesific python
 conda create -n myenv python=3.6
+
+#cloning environment
+conda create --name myclone --clone myenv
 
 #activate environtment
 conda active 'nama environtment'
