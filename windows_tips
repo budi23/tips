@@ -22,3 +22,9 @@ At the prompt window, type “format f: /fs:NTFS /p:1” command, and hit on “
 
 #reset period windows
 slmgr.vbs -rearm
+
+#lihat serial disk
+dir
+
+#change serial number drive
+volumeid [driveletter:] xxxx-xxxx
