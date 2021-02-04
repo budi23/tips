@@ -12,3 +12,6 @@ conda install -c conda-forge keras
 
 #install pyautogui
 conda install -c conda-forge pyautogui
+
+#install sklearn
+conda install -c conda-forge scikit-learn 
