@@ -1,0 +1,12 @@
+#create new environtment
+conda create --name myenv
+*myenv = ganti nama environtmentnya
+
+#create new environtment with spesific python
+conda create -n myenv python=3.6
+
+#activate environtment
+conda active 'nama environtment'
+
+#deactivate environtment
+conda deactivate
