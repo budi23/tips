@@ -1,0 +1,5 @@
+#create new environment
+conda create --name namaenvironment python=3.6 ( terserah python berapa )
+
+#install opencv
+conda install opencv
