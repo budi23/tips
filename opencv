@@ -2,4 +2,13 @@
 conda create --name namaenvironment python=3.6 ( terserah python berapa )
 
 #install opencv
-conda install opencv
+conda install -c conda-forge opencv
+
+#install tensorflow
+conda install -c conda-forge tensorflow
+
+#install keras
+conda install -c conda-forge keras
+
+#install pyautogui
+conda install -c conda-forge pyautogui
