@@ -1,0 +1,13 @@
+I might work, or it might not. You will not know unless you try. It depends on software, how it was made. Typically software may keep data in few places:
+
+- installation folder
+
+- common files (in program files)
+
+- user profile
+
+- registry (machine/user)
+
+- some software also installs additional libraries into windows folder
+
+If the software you are dealing with retains everything it needs in installation folder, it will probably work when copied to another machine. Sometimes if you also copy its data from user profile to new user profile, it will also work this way. You can also dump and restore registry settings. But if the software associates file extensions, you better start looking for installation media
