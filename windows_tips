@@ -31,3 +31,9 @@ dir
 
 #change serial number drive
 volumeid [driveletter:] xxxx-xxxx
+
+#batteryreport
+powercfg/batteryreport
+
+#wirelessreport
+netsh wlan show wlanreport
