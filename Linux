@@ -3,3 +3,16 @@ sudo chmod  o+w /var/www/html
 
 #restart service apache2
 sudo service apache2 restart
+
+Update: the following seems to have worked:
+
+Establish a [new directory] at /var/www
+Change the directory owner and group:
+sudo chown www-data:www-data /var/www/[new directory]
+allow the group to write to the directory with appropriate permissions:
+sudo chmod -R 775 /var/www
+Add myself to the www-data group:
+sudo usermod -a -G www-data [my username]
+Logout and login again.
+
+Thanks.
