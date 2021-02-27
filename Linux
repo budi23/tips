@@ -1,2 +1,5 @@
 Chmod
 sudo chmod  o+w /var/www/html
+
+#restart service apache2
+sudo service apache2 restart
