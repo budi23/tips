@@ -37,3 +37,6 @@ powercfg/batteryreport
 
 #wirelessreport
 netsh wlan show wlanreport
+
+#cekmaximum memory
+wmic memphysical get maxcapacity
